@@ -1,2 +1,2 @@
-# M-P-collections
-Business startup
+Freecodecamp project
+Tribute page
