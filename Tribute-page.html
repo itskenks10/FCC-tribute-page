@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&family=Barlow+Semi+Condensed:wght@500;600&family=Outfit:wght@300;400;500&family=Red+Hat+Display:ital,wght@0,800;0,900;1,500;1,700&display=swap"
+  />
+  <link rel="stylesheet" href="(https://fonts.google.com/specimen/Rubik)" />
+  <style>
+   
+    body {
+      font-family: "Bai+Jamjuree", sans-serif;
+    }
+    .header-img {
+      /* max-width: 100%;
+    max-height: 40%; */
+      display: flex;
+      align-self: center;
+      /* position: relative; */
+      margin: 1em;
+      /* image-resolution: ; */
+    }
+    .header-info {
+      max-width: 100%;
+      max-height: max-content;
+      background-image: linear-gradient(to right, green, white, green);
+      display: flex;
+      flex-direction: column;
+      border-radius: 40px;
+      /* align-items: center; */
+      /* align-content: center; */
+      /* row-gap: 0.53em; */
+      /* justify-content: center; */
+    }
+    .header-p {
+      position: relative;
+      bottom: 1em;
+      font-size: 2em;
+      /* font-size problem */
+    }
+    .header-color {
+      color: black;
+    }
+    .sub-desc {
+      display: flex;
+      /* justify-content: center; */
+      flex-direction: column;
+      align-items: center;
+      /* line-height: 0em; */
+    }
+    section {
+      width: 100%;
+      height: 20vh;
+      display: flex;
+      row-gap: 1em;
+      /* align-self: center; */
+      flex-direction: column;
+      /* line-height: 0.5em; */
+      align-items: center;
+      background-color: white;
+      /* background-image:linear-gradient(to left,hsl(206, 6%, 79%),hsl(270, 7%, 64%)) ; */
+    }
+    h3 {
+      margin-bottom: 1em;
+      /* left: 40%; */
+    }
+    .brief-info {
+      position: relative;
+      bottom: 2.5em;
+      max-width: 80%;
+      /* font-size: 1.5em; */
+    }
+    .timeline {
+      font-family: "Rubik", sans-serif;
+      font-size: 1.2em;
+      display: flex;
+      border-radius: 2em;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2em;
+      /* background-color: blue; */
+      background-image: linear-gradient(
+        to left,
+        hsl(206, 6%, 79%),
+        hsl(270, 7%, 64%)
+      );
+      margin-left: 10em;
+      margin-right: 10em;
+      /* padding: 1em; */
+      /* padding-left: 30em; */
+      /* padding-right: 30em; */
+      /* max-width: 70%; */
+      /* justify-content: center; */
+    }
+    .container-timeline {
+      background-color: black;
+    }
+    @media screen and (max-width: 450px) {
+      body {
+        /* background-color: blue; */
+        position: relative;
+        /* font-size: 0.5em; */
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+      }
+      .header-img {
+        width: 12em;
+        height: 9em;
+        border-radius: 2em;
+        /* max-height: fit-content; */
+        /* display: flex; */
+        margin-top: 1em;
+        /* margin is affecting the display of the image */
+      }
+      h1 {
+        font-size: 1.5em;
+        padding-left: 1em;
+        padding-right:1em;
+        /* display: flex; */
+      }
+      .header-p {
+        /* bottom: 0; */
+        position: relative;
+        font-size: 1em;
+      }
+      .header-info {
+        /* max-width: 100%; */
+        max-width: 100%;
+        margin: 1em;
+        border-radius: unset; 
+        /* border-radius: 0.5em; */
+        /* margin-bottom: 2em; */
+        max-height: 40%;
+      }
+      section {
+        width: 100%;
+      }
+      p {
+        font-size: 0.8em;
+      }
+      li{
+          padding-left: 0.2em;
+          padding-right: 0.2em;
+      }
+      .timeline {
+        display: flex;
+        /* border-radius: unset; */
+        max-width: 80%;
+        margin-left: unset;
+        margin-right: unset;
+        font-size: 1em;
+        /* font-size is not changing */
+      }
+      /* .timeline>p{
+            font-size: 0.2em;
+        } */
+    }
+  </style>
+  <body>
+    <div class="header-info">
+      <img
+        class="header-img"
+        src="/img/Nnamdi_Azikiwe_PC.jpg"
+        alt="A photo of late Nnamdi Azikiwe"
+      />
+      <div class="sub-desc">
+        <h1 class="header-color">Dr Benjamin Nnamdi Azikiwe</h1>
+        <p class="header-p header-color">Nigeria's First President</p>
+      </div>
+    </div>
+    <section>
+      <h3>Brief info on Dr Zik</h3>
+      <p class="brief-info">
+        Nnamdi Benjamin Azikiwe,usually referred to as "Zik", was a Nigerian
+        statesman and political leader who served as the first President of
+        Nigeria from 1963 to 1966.Considered a driving force behind the nation's
+        independence, he came to be known as the "father of Nigerian
+        Nationalism"
+      </p>
+    </section>
+    <hr />
+    <!-- <div class="container-timeline"> -->
+    <div class="timeline">
+      <p>
+        <strong
+          ><em>Here is a timeline of Dr Nnamdi Azikiwe's life:</em></strong
+        >
+      </p>
+      <ul>
+        <li>
+          <p>
+            <strong>In 1904</strong>-Born in Kungeru,Northern Nigeria,born to
+            both Igbo parents
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1914</strong>-Nnamdi Azikiwe moved to Lagos where he
+            attended Wesleyan Boys' High School
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1920</strong>-He moved to Calabar with his dad where he
+            began secondary school education at Hope Waddell Training college
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1930</strong>-He graduated from Lincoln university with a
+            BA in Political science after transferring from Howard university in
+            1929
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1937</strong>-Azikiwe founded his own newspaper called
+            "West African Pilot"
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1943</strong>-The british council sponsored Azikiwe along
+            with 7 other West African editors
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1954</strong>-Azikiwe was selected as chief minister and
+            became a premier of the Eastern region in 1954
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1960</strong>-Azikiwe became the governor-general of
+            Nigeria
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1963</strong>-He became the first president of Nigeria
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1972</strong>-Azikiwe became the chancellor of the
+            university of Lagos
+          </p>
+        </li>
+        <li>
+          <p><strong>In 1978</strong>-He joined Nigerian People's Party(NPP)</p>
+        </li>
+        <li>
+          <p>
+            <strong>In 1996</strong>-Azikiwe died due to long illness at the
+            University of Nigeia Teachhing Hospital
+          </p>
+        </li>
+      </ul>
+    </div>
+    <!-- </div> -->
+  </body>
+</html>
