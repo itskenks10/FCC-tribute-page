@@ -1,2 +1,0 @@
-Freecodecamp project
-Tribute page
